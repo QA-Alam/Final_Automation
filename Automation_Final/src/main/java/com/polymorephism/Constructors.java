@@ -5,7 +5,7 @@ public class Constructors {
 	  // Java constructors overloading 
 	
 	
-	Constructors(String name){
+	 Constructors(){
 		
 	}
 	

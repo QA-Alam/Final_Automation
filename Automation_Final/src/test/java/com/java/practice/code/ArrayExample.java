@@ -12,7 +12,7 @@ public class ArrayExample {
 		int[] num = new int[6]; // it is fix
 		
 		int[][] number = {{ 1, 2, 3},
-				          {4, 5, 6 }};
+				          {  4, 5, 6 }};
 		num[0] = 10;
 		num[1] = 20;
 		num[2] = 30;
@@ -83,9 +83,9 @@ public class ArrayExample {
 		 //multiDimensionalArray();
 		// loopIncreaseValue();
 		//loopDecreaseValue();
-		//sorting();
+		sorting();
 		//whileLoop();\
-		javanewfeatureLoop();
+		//javanewfeatureLoop();
 	
 	}
 

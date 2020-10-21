@@ -40,7 +40,7 @@ public class ListExample {
 	// ArrayList class maintains the insertion order and is non-synchronized
 	// ArrayList flowing the index theory java
 	// ArrayList when add the new value increases the size 50%
-	// ArrayList faster then vector
+	// ArrayList faster then vector 
 	// ArrayList slower then array
 
 	// How to declare Integer ArrayList with values in Java? Examples
@@ -54,7 +54,7 @@ public class ListExample {
 		num.add(40);
 		num.add(50);
 		num.add(60);
-
+	
 		// How to reverse an array list java
 		Collections.reverse(num);
 		System.out.println(num);
@@ -101,7 +101,7 @@ public class ListExample {
 		System.out.println(num.size());
 
 		// How to know specific value
-		System.out.println(num.get(3));
+		System.out.println(num.get(3)); //num[1]
 
 		for (int i = 0; i < num.size(); i++) { // i j k
 			System.out.println(num.get(i));
@@ -216,6 +216,7 @@ public class ListExample {
 		// ArrayListTest();
 		// maxandminvalue();
 		//linkListTest();
-		listSorting();
+		//listSorting();
+		vectorTest();
 	}
 }

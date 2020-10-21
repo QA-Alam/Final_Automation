@@ -165,7 +165,7 @@ public class ListExample {
 		linklist.add(1, "Banana");
 		linklist.add(2, "Orenge");
 		linklist.add(3, "Milk");
-
+        // Null Apple -> Banana -> Orange Null
 		// Adding an element to the first position
 		linklist.addFirst("Java");
 

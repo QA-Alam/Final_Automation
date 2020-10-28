@@ -165,6 +165,7 @@ public class ListExample {
 		linklist.add(1, "Banana");
 		linklist.add(2, "Orenge");
 		linklist.add(3, "Milk");
+		linklist.add(4, "Milk");
         // Null Apple -> Banana -> Orange Null
 		// Adding an element to the first position
 		linklist.addFirst("Java");
@@ -179,6 +180,7 @@ public class ListExample {
 		linklist.removeLast();
 
 		System.out.println(linklist);
+
 		// Iterating LinkedList
 		Iterator<String> iterator = linklist.iterator();
 		while (iterator.hasNext()) {
@@ -217,6 +219,6 @@ public class ListExample {
 		// maxandminvalue();
 		//linkListTest();
 		//listSorting();
-		vectorTest();
+		 vectorTest();
 	}
 }
